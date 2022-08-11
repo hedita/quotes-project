@@ -18,13 +18,15 @@
   color: var(--primary-color);
 }
 
-.buttons {
+.list {
   padding-top: var(--large);
 }
 
-.button {
+.list-item {
+  display: inline;
   font-weight: var(--thin-font);
   margin: var(--small);
   padding: var(--xsmall);
   color: var(--secondery-color);
+  border: var(--border);
 }
