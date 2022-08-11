@@ -18,6 +18,8 @@
   color: var(--primary-color);
 }
 
+/*buttons*/
+
 .buttons {
   padding-top: var(--xxLarge);
 }
