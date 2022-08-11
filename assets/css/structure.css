@@ -4,28 +4,28 @@ body {
 
 .section {
   border: var(--border);
-  margin: var(--xxLarge);
-  padding: var(--xxLarge);
+  margin: var(--Large);
+  padding: var(--Large);
   background-color: var(--background-color);
 }
 
 .quote {
   font-weight: var(--normal-font);
-  margin-bottom: var(--xxLarge);
+  margin-bottom: var(--Large);
   color: var(--primary-color);
 }
 
 .author {
   font-weight: var(--bold-font);
   text-align: right;
-  margin-bottom: var(--xxLarge);
+  margin-bottom: var(--Large);
   color: var(--primary-color);
 }
 
 /*buttons*/
 
 .buttons {
-  padding-top: var(--xxLarge);
+  padding-top: var(--Large);
 }
 
 .wisdom-button {
