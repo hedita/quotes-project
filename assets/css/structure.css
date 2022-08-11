@@ -1,3 +1,36 @@
 .section {
-  border: 1px solid grey;
+  border: var(--border);
+  margin: var(--xxLarge);
+  padding: var(--xxLarge);
+  background-color: var(--background-color);
+}
+
+.quote {
+  font-weight: var(--normal-font);
+  margin-bottom: var(--xxLarge);
+  color: var(--black);
+}
+
+.author {
+  font-weight: var(--bold-font);
+  text-align: right;
+  margin-bottom: var(--xxLarge);
+  color: var(--black);
+}
+
+.buttons {
+  padding-top: var(--xxLarge);
+}
+
+.wisdom-button {
+  font-weight: var(--thin-font);
+  margin: var(--small);
+  padding: var(--xSmall);
+  color: var(--primary-color);
+}
+
+.famous-qoutes-button {
+  font-weight: var(--thin-font);
+  padding: var(--xSmall);
+  color: var(--primary-color);
 }
