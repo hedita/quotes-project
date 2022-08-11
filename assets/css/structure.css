@@ -1,38 +1,30 @@
 .section {
   border: var(--border);
-  margin: var(--Large);
-  padding: var(--Large);
+  margin: var(--large);
+  padding: var(--large);
   background-color: var(--background-color);
 }
 
 .quote {
   font-weight: var(--normal-font);
-  margin-bottom: var(--Large);
+  margin-bottom: var(--large);
   color: var(--primary-color);
 }
 
 .author {
   font-weight: var(--bold-font);
   text-align: right;
-  margin-bottom: var(--Large);
+  margin-bottom: var(--large);
   color: var(--primary-color);
 }
 
-/*buttons*/
-
 .buttons {
-  padding-top: var(--Large);
+  padding-top: var(--large);
 }
 
-.wisdom-button {
+.button {
   font-weight: var(--thin-font);
   margin: var(--small);
-  padding: var(--xSmall);
-  color: var(--secondery-color);
-}
-
-.famous-qoutes-button {
-  font-weight: var(--thin-font);
-  padding: var(--xSmall);
+  padding: var(--xsmall);
   color: var(--secondery-color);
 }
