@@ -8,14 +8,14 @@
 .quote {
   font-weight: var(--normal-font);
   margin-bottom: var(--xxLarge);
-  color: var(--black);
+  color: var(--primary-color);
 }
 
 .author {
   font-weight: var(--bold-font);
   text-align: right;
   margin-bottom: var(--xxLarge);
-  color: var(--black);
+  color: var(--primary-color);
 }
 
 .buttons {
@@ -26,11 +26,11 @@
   font-weight: var(--thin-font);
   margin: var(--small);
   padding: var(--xSmall);
-  color: var(--primary-color);
+  color: var(--secondery-color);
 }
 
 .famous-qoutes-button {
   font-weight: var(--thin-font);
   padding: var(--xSmall);
-  color: var(--primary-color);
+  color: var(--secondery-color);
 }
