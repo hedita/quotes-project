@@ -1,0 +1,21 @@
+:root {
+  --primary-font: "open-sans";
+  --thin-font: 300;
+  --normal-font: 400;
+  --bold-font: 600;
+
+  --first-light-background: #2c3333;
+  --primary-color: #395b64;
+  --white: #fff;
+  --black: #000;
+  --secondery-color: #a5c9ca;
+  --border: 4px solid #e7f6f2;
+
+  --spacing: 8px;
+  --xSmall: 0.5em;
+  --small: 0.9em;
+  --medium: 1em;
+  --large: 1.2em;
+  --xLarge: 1.5em;
+  --xxLarge: 2em;
+}
