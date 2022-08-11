@@ -6,16 +6,10 @@
 
   --background-color: #112b3c;
   --primary-color: #f66b0e;
-  --white: #fff;
-  --black: #000;
   --secondery-color: #a5c9ca;
   --border: 1px solid #f66b0e;
 
-  --spacing: 8px;
   --xSmall: 0.5em;
   --small: 0.9em;
-  --medium: 1em;
-  --large: 1.2em;
-  --xLarge: 1.5em;
   --xxLarge: 2em;
 }
