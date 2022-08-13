@@ -18,11 +18,11 @@
   color: var(--primary-color);
 }
 
-.list {
+.tag-list {
   padding-top: var(--large);
 }
 
-.list-item {
+.tag-item {
   display: inline;
   font-weight: var(--thin-font);
   margin: var(--small);
