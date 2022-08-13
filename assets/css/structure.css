@@ -1,0 +1,32 @@
+.section {
+  border: var(--primary-border);
+  margin: var(--spacing-large);
+  padding: var(--spacing-large);
+  background-color: var(--background-color);
+}
+
+.quote {
+  font-weight: var(--normal-font);
+  margin-bottom: var(--spacing-large);
+  color: var(--primary-color);
+}
+
+.author {
+  font-weight: var(--bold-font);
+  text-align: right;
+  margin-bottom: var(--spacing-large);
+  color: var(--primary-color);
+}
+
+.tag-list {
+  padding-top: var(--spacing-large);
+}
+
+.tag-item {
+  display: inline;
+  font-weight: var(--thin-font);
+  margin: var(--spacing-small);
+  padding: var(--spacing-xsmall);
+  color: var(--secondery-color);
+  border: var(--primary-border);
+}
