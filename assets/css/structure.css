@@ -1,5 +1,5 @@
 .section {
-  border: var(--border);
+  border: var(--primary-border);
   margin: var(--large);
   padding: var(--large);
   background-color: var(--background-color);
@@ -28,5 +28,5 @@
   margin: var(--small);
   padding: var(--xsmall);
   color: var(--secondery-color);
-  border: var(--border);
+  border: var(--primary-border);
 }
