@@ -5,7 +5,12 @@ let tags = document.getElementById("tag-item");
 async function getQuotes() {
   let result = await fetch("https://api.quotable.io/random");
   let resultJson = await result.json();
-  console.log(resultJson);
+
+  let content = resultJson.content;
+  let writer = resultJson.author;
+
+  quotes.innerHTML = content;
+  author.innerHTML = writer;
 }
 
 getQuotes();
