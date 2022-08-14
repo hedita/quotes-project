@@ -6,10 +6,10 @@ async function getQuotes() {
   const result = await fetch("https://api.quotable.io/random");
   const resultJson = await result.json();
 
-  const {content , writer , tags: tagsArray}  = resultJson;
+  const {content , author , tags: tagsArray}  = resultJson;
 
-  quotes.innerHTML = resultJson.content;
-  author.innerHTML = resultJson.author;
+  quotes.innerHTML = content;
+  author.innerHTML = author;
   tagsArray.forEach(tag => {
     tags.innerHTML = tag;
   });
