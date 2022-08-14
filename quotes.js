@@ -1,14 +1,14 @@
-let quotes = document.getElementById("quote");
-let author = document.getElementById("author");
-let tags = document.getElementById("tag-item");
+const quotes = document.getElementById("quote");
+const author = document.getElementById("author");
+const tags = document.getElementById("tag-item");
 
 async function getQuotes() {
-  let result = await fetch("https://api.quotable.io/random");
-  let resultJson = await result.json();
+  const result = await fetch("https://api.quotable.io/random");
+  const resultJson = await result.json();
 
-  let content = resultJson.content;
-  let writer = resultJson.author;
-  let tagsArr = resultJson.tags;
+  const content = resultJson.content;
+  const writer = resultJson.author;
+  const tagsArr = resultJson.tags;
 
   tagsArr.forEach(element => {
     tags.innerHTML = element;
