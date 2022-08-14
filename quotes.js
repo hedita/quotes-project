@@ -5,7 +5,6 @@ const tags = document.getElementById("tag-item");
 async function getQuotes() {
   const result = await fetch("https://api.quotable.io/random");
   const resultJson = await result.json();
-
   const {content , writer , tags: tagsArray}  = resultJson;
 
   quotes.innerHTML = resultJson.content;
