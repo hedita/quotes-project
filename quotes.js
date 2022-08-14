@@ -10,8 +10,8 @@ async function getQuotes() {
   const writer = resultJson.author;
   const tagsArr = resultJson.tags;
 
-  tagsArr.forEach(element => {
-    tags.innerHTML = element;
+  tagsArr.forEach(tag => {
+    tags.innerHTML = tag;
   });
 
   quotes.innerHTML = content;
