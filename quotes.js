@@ -8,6 +8,11 @@ async function getQuotes() {
 
   let content = resultJson.content;
   let writer = resultJson.author;
+  let tagsArr = resultJson.tags;
+
+  tagsArr.forEach(element => {
+    tags.innerHTML = element;
+  });
 
   quotes.innerHTML = content;
   author.innerHTML = writer;
