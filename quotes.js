@@ -10,12 +10,11 @@ async function getQuotes() {
   const writer = resultJson.author;
   const tagsArr = resultJson.tags;
 
+  quotes.innerHTML = content;
+  author.innerHTML = writer;
   tagsArr.forEach(tag => {
     tags.innerHTML = tag;
   });
-
-  quotes.innerHTML = content;
-  author.innerHTML = writer;
 }
 
 getQuotes();
