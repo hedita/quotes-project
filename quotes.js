@@ -2,6 +2,7 @@ const quotes = document.getElementById("quote");
 const writer = document.getElementById("author");
 const tags = document.getElementById("tag-item");
 const tagsList = document.getElementById("tag-list");
+let listHtml = "";
 
 async function getQuotes() {
   const result = await fetch("https://api.quotable.io/random");
@@ -11,9 +12,10 @@ async function getQuotes() {
   quotes.innerHTML = content;
   writer.innerHTML = author;
   tagsArray.forEach(tag => {
-    tags.innerHTML = tag;
+  listHtml += `<li class="item"> ${tag} </li>`
+  tagsList.innerHTML = listHtml;
   });
-console.log(resultJson)
 }
 
 getQuotes();
+
