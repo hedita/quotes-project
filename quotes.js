@@ -9,8 +9,15 @@ async function getQuotes() {
   const resultJson = await result.json();
   const {content , author , tags: tagsArray}  = resultJson;
 
+<<<<<<< HEAD
   quotes.innerHTML = content;
   writer.innerHTML = author;
+=======
+  const {content , author , tags: tagsArray}  = resultJson;
+
+  quotes.innerHTML = content;
+  author.innerHTML = author;
+>>>>>>> d83933d82569b2531017e446462fa796cf77ae26
   tagsArray.forEach(tag => {
   listHtml += `<li class="item"> ${tag} </li>`
   tagsList.innerHTML = listHtml;
