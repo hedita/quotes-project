@@ -10,7 +10,7 @@ async function getQuotes() {
   const {content , author , tags: tagsArray}  = resultJson;
 
   quotes.innerHTML = content;
-  author.innerHTML = author;
+  writer.innerHTML = author;
   tagsArray.forEach(tag => {
   listHtml += `<li class="item"> ${tag} </li>`
   tagsList.innerHTML = listHtml;
