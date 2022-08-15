@@ -12,7 +12,7 @@ async function getQuotes() {
   quotes.innerHTML = content;
   writer.innerHTML = author;
   tagsArray.forEach(tag => {
-  listHtml += `<li class="item"> ${tag} </li>`
+  listHtml +=`<li class="item">${tag}</li>`
   tagsList.innerHTML = listHtml;
   });
 }
