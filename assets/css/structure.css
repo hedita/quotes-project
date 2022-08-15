@@ -22,7 +22,7 @@
   padding-top: var(--spacing-large);
 }
 
-.item {
+.tag-item {
   display: inline;
   font-weight: var(--thin-font);
   margin: var(--spacing-small);
