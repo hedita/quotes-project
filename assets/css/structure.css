@@ -7,7 +7,7 @@
 
 .quote {
   font-weight: var(--normal-font);
-  margin-bottom: var(--spacing-large);
+  margin-bottom: var(--spacing-xlarge);
   color: var(--primary-color);
 }
 
