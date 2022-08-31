@@ -18,10 +18,10 @@ async function getQuotes() {
   tagsList.innerHTML = listHtml;
 }
 
- getQuotes() 
+getQuotes(); 
 
 refreshButton.addEventListener("click", function() {
-  getQuotes()
+  getQuotes();
 })
 
  
