@@ -14,7 +14,6 @@
 .author {
   font-weight: var(--bold-font);
   text-align: right;
-  margin-bottom: var(--spacing-large);
   color: var(--primary-color);
 }
 
@@ -29,4 +28,12 @@
   padding: var(--spacing-xsmall);
   color: var(--secondery-color);
   border: var(--primary-border);
+}
+
+.refresh-button {
+  float: right;
+  border: var(--primary-border);
+  color: var(--secondery-color);
+  padding: var(--spacing-xsmall);
+  margin-bottom: var(--spacing-small);
 }
