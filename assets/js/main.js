@@ -3,12 +3,12 @@ const writer = document.getElementById("author");
 const tags = document.getElementById("tag-item");
 const tagsList = document.getElementById("tag-list");
 const refreshButton = document.getElementById("refresh-button");
-let listHtml = "";
 
 async function getQuotes() {
   const result = await fetch("https://api.quotable.io/random");
   const resultJson = await result.json();
   const {content , author , tags: tagsArray}  = resultJson;
+  let listHtml = "";
 
   quotes.innerHTML = content;
   writer.innerHTML = author;
