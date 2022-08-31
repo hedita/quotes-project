@@ -23,5 +23,3 @@ getQuotes();
 refreshButton.addEventListener("click", function() {
   getQuotes();
 });
-
- 
