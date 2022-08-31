@@ -2,6 +2,7 @@ const quotes = document.getElementById("quote");
 const writer = document.getElementById("author");
 const tags = document.getElementById("tag-item");
 const tagsList = document.getElementById("tag-list");
+const refreshButton = document.getElementById("refresh-button");
 let listHtml = "";
 
 async function getQuotes() {
@@ -17,4 +18,10 @@ async function getQuotes() {
   tagsList.innerHTML = listHtml;
 }
 
-getQuotes();
+ getQuotes() 
+
+refreshButton.addEventListener("click", function() {
+  getQuotes()
+})
+
+ 
